@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 20px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+#layout-container {
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.partition {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  flex-grow: 1;
+}
+
+.split-button, .remove-button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.split-button:hover, .remove-button:hover {
+  background-color: #0056b3;
+}

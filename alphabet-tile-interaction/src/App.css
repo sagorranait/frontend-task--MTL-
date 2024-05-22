@@ -1,0 +1,37 @@
+.alphabet-tile-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.alphabet-tile-app p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: 450px;
+  border: 1px solid #ddd;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+.alphabet-tile-grid {
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 20px;
+  text-align: center;
+  gap: 10px;
+  padding: 25px;
+  border: 1px solid #ddd;
+}
+
+.tile {
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
